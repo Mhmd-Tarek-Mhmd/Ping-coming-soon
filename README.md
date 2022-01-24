@@ -4,8 +4,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Links
 
-- Live Site [URL](https://mhmd-tarek-mhmd.github.io/Ping-landing-coming-soon-page/)
-- Solution [URL](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-)
+- Live Site [URL](https://mhmd-tarek-mhmd.github.io/Ping-coming-soon)
+- Solution [URL](https://www.frontendmentor.io/solutions/ping-coming-soon-1qAtBE38r)
 
 ## Screenshots
 
