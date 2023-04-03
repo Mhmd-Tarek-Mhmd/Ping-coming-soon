@@ -48,7 +48,7 @@
       }
       ::placeholder {
         opacity: 0.3;
-        color: inherit;
+        font-size: 16px;
       }
 
       /*
@@ -64,6 +64,7 @@
         margin-top: 87px;
       }
       main h1 {
+        font-size: 2.4em;
         font-weight: 700;
         margin: 45px 0 20px;
       }
@@ -80,6 +81,7 @@
           width: 106px;
         }
         main h1 {
+          font-size: 2em;
           margin: 70px 0 35px;
         }
       }
@@ -126,6 +128,7 @@
         width: 200px;
         border: none;
         color: white;
+        font-size: 24px;
         font-weight: 600;
         will-change: opacity;
         background: var(--blue);
@@ -135,6 +138,13 @@
       .subscribe button:hover {
         opacity: 0.8;
       }
+      @media (min-width: 751px) {
+        .subscribe button {
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+
       @media (max-width: 750px) {
         .subscribe {
           gap: 20px;
@@ -176,9 +186,9 @@
         justify-content: center;
       }
       footer .icon {
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
         border-radius: 50%;
         color: var(--blue);
         border: 1px solid var(--border-color);
@@ -190,7 +200,7 @@
       @media (min-width: 751px) {
         footer .icon,
         footer p {
-          font-size: 14px;
+          font-size: 12px;
         }
       }
       @media (max-width: 750px) {
