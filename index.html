@@ -52,10 +52,10 @@
       }
 
       /*
-        Header styles
+        Main styles
       */
 
-      header {
+      main {
         width: 70%;
         margin: auto;
         max-width: 640px;
@@ -63,11 +63,11 @@
       .logo {
         margin-top: 87px;
       }
-      header h1 {
+      main h1 {
         font-weight: 700;
         margin: 45px 0 20px;
       }
-      header h1 span {
+      main h1 span {
         font-weight: 300;
         color: var(--gray);
       }
@@ -79,7 +79,7 @@
           height: 30px;
           width: 106px;
         }
-        header h1 {
+        main h1 {
           margin: 70px 0 35px;
         }
       }
@@ -212,9 +212,9 @@
     </style>
   </head>
   <body>
-    <header>
+    <main>
       <a href="/" class="logo">
-        <img src="images/logo.svg" alt="Ping logo" />
+        <img aria-hidden="true" src="images/logo.svg" alt="" />
       </a>
 
       <h1><span>We are launching</span> soon!</h1>
@@ -231,20 +231,20 @@
         <button type="submit">Notify Me</button>
       </form>
 
-      <picture>
+      <picture aria-hidden="true">
         <img src="images/illustration-dashboard.png" alt="" />
       </picture>
-    </header>
+    </main>
 
     <footer>
       <div class="icons">
-        <a href="#" class="icon" aria-label="To Facebook account">
+        <a href="#" class="icon" aria-label="navigate to Facebook account">
           <i aria-hidden="true" class="fab fa-lg fa-facebook-f"></i>
         </a>
-        <a href="#" class="icon" aria-label="To Twitter account">
+        <a href="#" class="icon" aria-label="navigate to Twitter account">
           <i aria-hidden="true" class="fab fa-lg fa-twitter"></i>
         </a>
-        <a href="#" class="icon" aria-label="To Instagram account">
+        <a href="#" class="icon" aria-label="navigate to Instagram account">
           <i aria-hidden="true" class="fab fa-lg fa-instagram"></i>
         </a>
       </div>
